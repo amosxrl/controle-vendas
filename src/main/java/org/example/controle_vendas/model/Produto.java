@@ -9,7 +9,7 @@ public class Produto {
 
     public Produto() {}
 
-    public Produto(int produtoId, String nomeProduto, int precoVenda, int precoCusto) {
+    public Produto(int produtoId, String nomeProduto, int precoVenda, int precoCusto, String unidadeMedida) {
 
         this.produtoId = produtoId;
         this.nomeProduto = nomeProduto;
